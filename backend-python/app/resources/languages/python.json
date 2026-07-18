@@ -1,0 +1,8 @@
+{
+  "name": "Python",
+  "extension": ".py",
+  "os_support": ["windows", "linux", "darwin"],
+  "compile": null,
+  "run": ["python", "{file_name}"],
+  "install_hint": "Install Python via official website (https://python.org)"
+}

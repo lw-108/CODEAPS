@@ -1,0 +1,9 @@
+{
+  "name": "Swift",
+  "extension": ".swift",
+  "os_support": ["linux", "darwin"],
+  "binary_prefix": "./",
+  "compile": ["swiftc", "{file_name}", "-o", "{binary_name}"],
+  "run": ["{binary_name}"],
+  "install_hint": "Install Swift from swift.org (primarily Linux/macOS support)."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "TypeScript",
+  "extension": ".ts",
+  "os_support": ["windows", "linux", "darwin"],
+  "compile": ["tsc", "{file_name}"],
+  "run": ["node", "{file_stem}.js"],
+  "install_hint": "Run 'npm install -g typescript' to add the tsc compiler."
+}

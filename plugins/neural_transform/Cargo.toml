@@ -1,0 +1,10 @@
+[package]
+name = "neural-transform"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# We don't need much here, just standard library which is available in WASI

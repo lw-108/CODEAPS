@@ -1,0 +1,9 @@
+{
+  "name": "Rust",
+  "extension": ".rs",
+  "os_support": ["windows", "linux", "darwin"],
+  "binary_prefix": "./",
+  "compile": ["rustc", "{file_name}", "-o", "{binary_name}"],
+  "run": ["{binary_name}"],
+  "install_hint": "Install via rustup (https://rustup.rs)"
+}

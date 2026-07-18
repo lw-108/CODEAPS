@@ -1,0 +1,61 @@
+{
+  "name": "codeaps-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "build:backend": "cd backend-python && .\\venv\\Scripts\\python.exe -m PyInstaller --noconfirm --onefile --console --name codeaps-backend --add-data \"app;app\" --add-data \"alembic;alembic\" --add-data \"../templates;templates\" --add-data \"alembic.ini;.\" --hidden-import uvicorn --hidden-import fastapi --hidden-import sqlalchemy --hidden-import alembic --hidden-import psutil --hidden-import chromadb --hidden-import sqlite3 --hidden-import passlib.handlers.bcrypt launcher.py",
+    "build:sidecar": "npm run build:backend && move /Y backend-python\\dist\\codeaps-backend.exe src-tauri\\binaries\\codeaps-backend-x86_64-pc-windows-msvc.exe",
+    "dist": "powershell -ExecutionPolicy Bypass -File build_dist.ps1"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.12",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-label": "^2.1.8",
+    "@radix-ui/react-navigation-menu": "^1.2.14",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@react-three/fiber": "^8.18.0",
+    "@react-three/postprocessing": "^2.19.1",
+    "@tauri-apps/api": "^1.5.0",
+    "chart.js": "^4.4.0",
+    "clsx": "^2.0.0",
+    "cmdk": "^1.1.1",
+    "framer-motion": "^10.16.12",
+    "lucide-react": "^0.294.0",
+    "marked": "^9.1.5",
+    "monaco-editor": "^0.45.0",
+    "postprocessing": "^6.39.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-resizable-panels": "^1.0.6",
+    "recharts": "^3.8.1",
+    "split.js": "^1.6.5",
+    "tailwind-merge": "^2.1.0",
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.183.2",
+    "xterm": "^5.3.0",
+    "xterm-addon-fit": "^0.8.0",
+    "xterm-addon-web-links": "^0.9.0",
+    "y-monaco": "^0.1.6",
+    "y-websocket": "^1.5.4",
+    "yjs": "^13.6.30",
+    "zustand": "^4.4.7"
+  },
+  "overrides": {
+    "zustand": "$zustand"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/three": "^0.160.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.1",
+    "vite": "^4.5.0"
+  }
+}

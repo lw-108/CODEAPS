@@ -1,0 +1,50 @@
+name: "CodeAps Executive Release"
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publish:
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [windows-latest]
+
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: Install Rust Stable
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install Dependencies (Windows)
+        if: matrix.platform == 'windows-latest'
+        run: |
+          # No extra deps usually needed for basic Tauri on Windows
+          echo "Preparing Windows build surface..."
+
+      - name: Install App Dependencies
+        run: npm install
+
+      - name: Build Frontend
+        run: npm run build
+
+      - uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tagName: v__VERSION__ # tauri-action replaces this with app version
+          releaseName: "CodeAps Executive Suite v__VERSION__"
+          releaseBody: "Neural Link Phase 5 Distribution. Unified Executive Suite Baseline."
+          releaseDraft: true
+          prerelease: false
+          args: --target x86_64-pc-windows-msvc

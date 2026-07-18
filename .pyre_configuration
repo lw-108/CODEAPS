@@ -1,0 +1,9 @@
+{
+  "source_directories": [
+    "backend-python",
+    "ai_engine"
+  ],
+  "search_path": [
+    "."
+  ]
+}

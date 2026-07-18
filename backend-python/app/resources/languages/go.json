@@ -1,0 +1,9 @@
+{
+  "name": "Go",
+  "extension": ".go",
+  "os_support": ["windows", "linux", "darwin"],
+  "binary_prefix": "./",
+  "compile": ["go", "build", "-o", "{binary_name}", "{file_name}"],
+  "run": ["{binary_name}"],
+  "install_hint": "Install Go via official website (https://go.dev)"
+}

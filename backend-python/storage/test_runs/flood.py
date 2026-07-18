@@ -1,0 +1,1 @@
+import sys; print('A' * 2000000)

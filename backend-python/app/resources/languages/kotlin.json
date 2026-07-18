@@ -1,0 +1,9 @@
+{
+  "name": "Kotlin",
+  "extension": ".kt",
+  "os_support": ["windows", "linux", "darwin"],
+  "dependencies": ["kotlinc", "java"],
+  "compile": ["kotlinc", "{file_name}", "-include-runtime", "-d", "{file_stem}.jar"],
+  "run": ["java", "-jar", "{file_stem}.jar"],
+  "install_hint": "Install Kotlin via SDKMAN! or Brew, and ensure Java is in PATH."
+}

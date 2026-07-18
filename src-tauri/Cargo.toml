@@ -1,0 +1,42 @@
+[package]
+name = "codeaps"
+version = "1.0.0"
+description = "Perfect & Dynamic IDE"
+authors = ["CodeAps Team"]
+edition = "2021"
+rust-version = "1.70"
+
+[build-dependencies]
+tauri-build = { version = "1.5.0", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tauri = { version = "1.5.0", features = ["api-all"] }
+tokio = { version = "1.28", features = ["full"] }
+chrono = "0.4"
+thiserror = "1.0"
+anyhow = "1.0"
+which = "6.0"
+git2 = "0.18"
+portable-pty = "0.8"
+ignore = "0.4"
+lsp-types = "0.95"
+tokio-util = { version = "0.7", features = ["codec"] }
+tokio-tungstenite = "0.20"
+futures = "0.3"
+bytes = "1.4"
+futures-util = "0.3"
+regex = "1.8"
+notify = "6.1.1"
+dap = "0.4.1-alpha1"
+wasmtime = "29.0.0"
+wasmtime-wasi = { version = "29.0.0", features = ["preview1"] }
+serde_bytes = "0.11"
+sysinfo = "0.30"
+lazy_static = "1.4"
+
+[features]
+# by default Tauri runs in the browser-based environment
+# but we need the native features for terminal
+custom-protocol = ["tauri/custom-protocol"]
