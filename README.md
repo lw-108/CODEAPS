@@ -26,10 +26,13 @@
 
 ## 🏁 Quick Start
 
+For a detailed, step-by-step setup guide with full instructions and troubleshooting tips, see [SETUP.md](./SETUP.md).
+
 ### Prerequisites
 - Node.js (v18+)
 - Python (v3.10+)
 - Rust (for Tauri builds)
+- Ollama (for local AI)
 
 ### Development
 1. Clone the repository.
@@ -44,7 +47,8 @@
    ```
 
 ## 📖 Documentation
-Detailed technical documentation can be found in [DOCUMENTATION.md](./DOCUMENTATION.md).
+- For detailed technical design and architecture, see [DOCUMENTATION.md](./DOCUMENTATION.md).
+- For local configuration and setup guide, see [SETUP.md](./SETUP.md).
 
 ---
 
