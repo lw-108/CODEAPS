@@ -52,71 +52,87 @@ For a detailed, step-by-step setup guide with full instructions and troubleshoot
 
 ---
 
-© 2026 CODEAPS Team. All rights reserved.
-
-
 ### Gallery
 
 **Main Dashboard & Editor Interface**
 
 <img width="1805" height="998" alt="Main Dashboard & Editor Interface" src="https://github.com/user-attachments/assets/86b75134-971c-4854-97a1-704fa800e81d" />
 
+
 **Code Editor with Syntax Highlighting**
 
 <img width="1840" height="1036" alt="Code Editor with Syntax Highlighting" src="https://github.com/user-attachments/assets/6ae4a8a2-aea6-4508-b235-eb6384a1836c" />
+
 
 **AI-Powered Code Analysis Panel**
 
 <img width="1880" height="1058" alt="AI-Powered Code Analysis Panel" src="https://github.com/user-attachments/assets/07968c48-7e3d-48e7-81d5-38bc5a7cb10a" />
 
+
 **Integrated Terminal with Multi-Tab Support**
 
 <img width="1805" height="1014" alt="Integrated Terminal with Multi-Tab Support" src="https://github.com/user-attachments/assets/b5305307-9598-4eee-93e2-9c3b588ddc10" />
+
 
 **File Explorer & Project Navigation**
 
 <img width="1880" height="1058" alt="File Explorer & Project Navigation" src="https://github.com/user-attachments/assets/96ac2520-0a99-408b-a54a-99155ec32aca" />
 
+
 **Real-time Code Suggestions**
 
 <img width="1880" height="1058" alt="Real-time Code Suggestions" src="https://github.com/user-attachments/assets/d54e6eb4-16cf-42b0-a36e-28a3a3fc7060" />
+
 
 **Search & Replace Functionality**
 
 <img width="1805" height="1014" alt="Search & Replace Functionality" src="https://github.com/user-attachments/assets/92706f3b-a525-4e61-acb9-d79189d5701b" />
 
+
 **Debugging Tools & Breakpoints**
 
 <img width="1805" height="1015" alt="Debugging Tools & Breakpoints" src="https://github.com/user-attachments/assets/5f72d947-9721-471e-8965-566c9cf4b0cb" />
+
 
 **Theme Customization & UI Settings**
 
 <img width="1880" height="1058" alt="Theme Customization & UI Settings" src="https://github.com/user-attachments/assets/b59cf36a-9a42-43d4-bec5-435562f06aff" />
 
+
 **Collaborative Workspace View**
 
 <img width="1880" height="1058" alt="Collaborative Workspace View" src="https://github.com/user-attachments/assets/dcb0a6c0-a237-44b3-a9d8-94d6d774b510" />
+
 
 **Performance Monitoring Dashboard**
 
 <img width="1880" height="1059" alt="Performance Monitoring Dashboard" src="https://github.com/user-attachments/assets/401426de-730e-4478-a6eb-f34e708e34f1" />
 
+
 **Code Refactoring Tools**
 
 <img width="1880" height="1058" alt="Code Refactoring Tools" src="https://github.com/user-attachments/assets/978f20de-5bf9-435e-afa1-1cbf820f1dd1" />
+
 
 **Version Control Integration**
 
 <img width="1880" height="1059" alt="Version Control Integration" src="https://github.com/user-attachments/assets/c9f7ed08-44ab-4289-b07e-651d35f3656d" />
 
+
 **Plugin Management & Extensions**
 
 <img width="1880" height="1018" alt="Plugin Management & Extensions" src="https://github.com/user-attachments/assets/d1022394-6661-485d-bd19-d2d0a97bfbf4" />
+
 
 **Keyboard Shortcuts & Command Palette**
 
 <img width="1880" height="1011" alt="Keyboard Shortcuts & Command Palette" src="https://github.com/user-attachments/assets/51e5a41f-e5c9-413c-905b-ce45f7d0621b" />
 
 **Advanced Configuration Panel**
+
 <img width="1880" height="1011" alt="Advanced Configuration Panel" src="https://github.com/user-attachments/assets/8311f9a4-bf51-4ae1-b15c-954bb3e35d38" />
+
+---
+
+© 2026 CODEAPS . All rights reserved.
 
