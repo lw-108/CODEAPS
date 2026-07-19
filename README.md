@@ -3,8 +3,7 @@
 
 **CODEAPS** (Centralized Operations & Development Engine – AI Powered System) is a high-performance, cross-platform integrated development environment engineered to bridge the gap between local development efficiency and advanced AI-driven diagnostics. Built on a robust tri-pillar architecture—leveraging the security of Rust through the Tauri framework, the dynamic responsiveness of a React-based frontend, and the computational power of a Python-FastAPI sidecar—CODEAPS offers a unified workspace where intelligent code analysis meets professional-grade editing. By integrating the Monaco editor, multi-tab terminal capabilities, and a custom-built AI analysis engine that interfaces with local large language models, the platform provides real-time semantic insights, automated refactoring, and collaborative state synchronization. It is designed not just as a text editor, but as a centralized engine that orchestrates the entire development lifecycle, from initial requirement analysis to final production build, all within a high-fidelity, low-latency desktop application.
 
-![CODEAPS Logo](<img width="1024" height="1008" alt="pypGi" src="https://github.com/user-attachments/assets/b4ea7e90-9137-444e-abaa-c765977da438" />
-)
+![CODEAPS Logo](<img width="1024" height="1008" alt="pypGi" src="https://github.com/user-attachments/assets/b4ea7e90-9137-444e-abaa-c765977da438" />)
 
 **CODEAPS** is a next-generation, high-performance IDE designed for seamless AI integration and centralized development workflows. Built on top of the **Tauri** framework, it leverages the speed of[...]
 
