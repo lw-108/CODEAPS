@@ -1,11 +1,11 @@
 # CODEAPS
 ### Centralized Operations & Development Engine – AI Powered System
 
-**CODEAPS** (Centralized Operations & Development Engine – AI Powered System) is a high-performance, cross-platform integrated development environment engineered to bridge the gap between local development efficiency and advanced AI-driven diagnostics. Built on a robust tri-pillar architecture—leveraging the security of Rust through the Tauri framework, the dynamic responsiveness of a React-based frontend, and the computational power of a Python-FastAPI sidecar—CODEAPS offers a unified workspace where intelligent code analysis meets professional-grade editing. By integrating the Monaco editor, multi-tab terminal capabilities, and a custom-built AI analysis engine that interfaces with local large language models, the platform provides real-time semantic insights, automated refactoring, and collaborative state synchronization. It is designed not just as a text editor, but as a centralized engine that orchestrates the entire development lifecycle, from initial requirement analysis to final production build, all within a high-fidelity, low-latency desktop application.
+**CODEAPS** (Centralized Operations & Development Engine – AI Powered System) is a high-performance, cross-platform integrated development environment engineered to bridge the gap between local d[...]
 
 ![CODEAPS Logo]()
 
-**CODEAPS** is a next-generation, high-performance IDE designed for seamless AI integration and centralized development workflows. Built on top of the **Tauri** framework, it leverages the speed of Rust and the flexibility of React to provide a premium coding experience.
+**CODEAPS** is a next-generation, high-performance IDE designed for seamless AI integration and centralized development workflows. Built on top of the **Tauri** framework, it leverages the speed of[...]
 
 ## 🚀 Key Features
 
@@ -57,36 +57,51 @@ For a detailed, step-by-step setup guide with full instructions and troubleshoot
 
 ### Gallery
 
-<img width="1805" height="998" alt="1" src="https://github.com/user-attachments/assets/86b75134-971c-4854-97a1-704fa800e81d" />
+**Main Dashboard & Editor Interface**
+<img width="1805" height="998" alt="Main Dashboard & Editor Interface" src="https://github.com/user-attachments/assets/86b75134-971c-4854-97a1-704fa800e81d" />
 
-<img width="1840" height="1036" alt="2" src="https://github.com/user-attachments/assets/6ae4a8a2-aea6-4508-b235-eb6384a1836c" />
+**Code Editor with Syntax Highlighting**
+<img width="1840" height="1036" alt="Code Editor with Syntax Highlighting" src="https://github.com/user-attachments/assets/6ae4a8a2-aea6-4508-b235-eb6384a1836c" />
 
-<img width="1880" height="1058" alt="3" src="https://github.com/user-attachments/assets/07968c48-7e3d-48e7-81d5-38bc5a7cb10a" />
+**AI-Powered Code Analysis Panel**
+<img width="1880" height="1058" alt="AI-Powered Code Analysis Panel" src="https://github.com/user-attachments/assets/07968c48-7e3d-48e7-81d5-38bc5a7cb10a" />
 
-<img width="1805" height="1014" alt="4" src="https://github.com/user-attachments/assets/b5305307-9598-4eee-93e2-9c3b588ddc10" />
+**Integrated Terminal with Multi-Tab Support**
+<img width="1805" height="1014" alt="Integrated Terminal with Multi-Tab Support" src="https://github.com/user-attachments/assets/b5305307-9598-4eee-93e2-9c3b588ddc10" />
 
-<img width="1880" height="1058" alt="5" src="https://github.com/user-attachments/assets/96ac2520-0a99-408b-a54a-99155ec32aca" />
+**File Explorer & Project Navigation**
+<img width="1880" height="1058" alt="File Explorer & Project Navigation" src="https://github.com/user-attachments/assets/96ac2520-0a99-408b-a54a-99155ec32aca" />
 
-<img width="1880" height="1058" alt="6" src="https://github.com/user-attachments/assets/d54e6eb4-16cf-42b0-a36e-28a3a3fc7060" />
+**Real-time Code Suggestions**
+<img width="1880" height="1058" alt="Real-time Code Suggestions" src="https://github.com/user-attachments/assets/d54e6eb4-16cf-42b0-a36e-28a3a3fc7060" />
 
-<img width="1805" height="1014" alt="7" src="https://github.com/user-attachments/assets/92706f3b-a525-4e61-acb9-d79189d5701b" />
+**Search & Replace Functionality**
+<img width="1805" height="1014" alt="Search & Replace Functionality" src="https://github.com/user-attachments/assets/92706f3b-a525-4e61-acb9-d79189d5701b" />
 
-<img width="1805" height="1015" alt="8" src="https://github.com/user-attachments/assets/5f72d947-9721-471e-8965-566c9cf4b0cb" />
+**Debugging Tools & Breakpoints**
+<img width="1805" height="1015" alt="Debugging Tools & Breakpoints" src="https://github.com/user-attachments/assets/5f72d947-9721-471e-8965-566c9cf4b0cb" />
 
-<img width="1880" height="1058" alt="9" src="https://github.com/user-attachments/assets/b59cf36a-9a42-43d4-bec5-435562f06aff" />
+**Theme Customization & UI Settings**
+<img width="1880" height="1058" alt="Theme Customization & UI Settings" src="https://github.com/user-attachments/assets/b59cf36a-9a42-43d4-bec5-435562f06aff" />
 
-<img width="1880" height="1058" alt="10" src="https://github.com/user-attachments/assets/dcb0a6c0-a237-44b3-a9d8-94d6d774b510" />
+**Collaborative Workspace View**
+<img width="1880" height="1058" alt="Collaborative Workspace View" src="https://github.com/user-attachments/assets/dcb0a6c0-a237-44b3-a9d8-94d6d774b510" />
 
-<img width="1880" height="1059" alt="11" src="https://github.com/user-attachments/assets/401426de-730e-4478-a6eb-f34e708e34f1" />
+**Performance Monitoring Dashboard**
+<img width="1880" height="1059" alt="Performance Monitoring Dashboard" src="https://github.com/user-attachments/assets/401426de-730e-4478-a6eb-f34e708e34f1" />
 
-<img width="1880" height="1058" alt="12" src="https://github.com/user-attachments/assets/978f20de-5bf9-435e-afa1-1cbf820f1dd1" />
+**Code Refactoring Tools**
+<img width="1880" height="1058" alt="Code Refactoring Tools" src="https://github.com/user-attachments/assets/978f20de-5bf9-435e-afa1-1cbf820f1dd1" />
 
-<img width="1880" height="1059" alt="13" src="https://github.com/user-attachments/assets/c9f7ed08-44ab-4289-b07e-651d35f3656d" />
+**Version Control Integration**
+<img width="1880" height="1059" alt="Version Control Integration" src="https://github.com/user-attachments/assets/c9f7ed08-44ab-4289-b07e-651d35f3656d" />
 
-<img width="1880" height="1018" alt="14" src="https://github.com/user-attachments/assets/d1022394-6661-485d-bd19-d2d0a97bfbf4" />
+**Plugin Management & Extensions**
+<img width="1880" height="1018" alt="Plugin Management & Extensions" src="https://github.com/user-attachments/assets/d1022394-6661-485d-bd19-d2d0a97bfbf4" />
 
-<img width="1880" height="1011" alt="15" src="https://github.com/user-attachments/assets/51e5a41f-e5c9-413c-905b-ce45f7d0621b" />
+**Keyboard Shortcuts & Command Palette**
+<img width="1880" height="1011" alt="Keyboard Shortcuts & Command Palette" src="https://github.com/user-attachments/assets/51e5a41f-e5c9-413c-905b-ce45f7d0621b" />
 
-<img width="1880" height="1011" alt="16" src="https://github.com/user-attachments/assets/8311f9a4-bf51-4ae1-b15c-954bb3e35d38" />
-
+**Advanced Configuration Panel**
+<img width="1880" height="1011" alt="Advanced Configuration Panel" src="https://github.com/user-attachments/assets/8311f9a4-bf51-4ae1-b15c-954bb3e35d38" />
 
